@@ -1,5 +1,6 @@
 ~bin
 *.svg
+_config.yml
 # .vscode
 desktop.ini
 node_modules
