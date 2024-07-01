@@ -1,0 +1,25 @@
+@import '../../backup-colors.scss';
+@import '../../../pages/select-colors.scss';
+
+a[class*='icon'] {
+  display: flex;
+  cursor: default;
+  background: none;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  img {
+    height: 75%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 4px rgba(black, 0.25));
+  }
+  &:hover {
+    //~~|🠊 transition: opacity 0.25s ease-in-out; 🠈|~~//
+    img {
+      filter: drop-shadow(0 0 4px rgba(white, 0.25));
+    }
+  }
+
+  //~~|🠊 border: 4px dashed $yellow-neon; 🠈|~~//
+  //~~|🠊 background: rgba($yellow-dark, 0.25); 🠈|~~//
+}
