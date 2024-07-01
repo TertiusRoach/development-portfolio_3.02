@@ -1,6 +1,6 @@
 {
-  "name": "development-portfolio_3.00",
-  "version": "3.0.0",
+  "name": "development-portfolio_3.02",
+  "version": "3.0.2",
   "description": "First Build It.",
   "main": "server/server.js",
   "engines": {
@@ -46,7 +46,7 @@
     "gulp-remove-html-comments": "^1.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-string-replace": "^1.1.2",
     "gulp-terser": "^2.1.0",
     "gulp-typescript": "^6.0.0-alpha.1",
@@ -60,7 +60,7 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.5",
     "react-responsive": "^10.0.0",
-    "sass": "^1.77.4",
+    "sass": "^1.77.6",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "terser-webpack-plugin": "^5.3.10",
